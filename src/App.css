@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -7,12 +12,16 @@
   pointer-events: none;
 }
 
+p, h1,h2,h3, h4, h5, h6 {
+  margin-bottom: 0px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+​
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +45,9 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "headline";
+  src: url("./assets/TiemposHeadline-Bold.otf");
+}
+
